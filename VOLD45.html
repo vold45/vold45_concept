@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>VOLD45 – 45 km/h. 2 Sitze. Einfach mobil.</title>
+<style>
+:root{--bg:#050505;--fg:#fff;--mute:#8a8a8a;--card:#111;--line:#222;--acc:#c6ff4f;--accfg:#111;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#050505;--fg:#fff;--mute:#8a8a8a;--card:#111;--line:#222}}
+:root[data-theme="dark"]{--bg:#050505;--fg:#fff;--mute:#8a8a8a;--card:#111;--line:#222}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:Inter,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;line-height:1.55}
+a{color:inherit}
+header{position:sticky;top:env(safe-area-inset-top,0px);display:flex;justify-content:space-between;align-items:center;padding:16px 6vw;background:rgba(5,5,5,.85);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);z-index:5}
+.logo{font-weight:800;font-size:1.5rem;letter-spacing:-.03em;text-decoration:none}.logo b{color:var(--acc)}
+nav a{margin-left:20px;color:var(--mute);text-decoration:none;font-size:.95rem}nav a:hover{color:var(--fg)}
+@media(max-width:600px){nav a:not(.btn){display:none}}
+.btn{display:inline-block;background:var(--acc);color:var(--accfg);font-weight:700;padding:14px 28px;border-radius:999px;text-decoration:none}
+nav .btn{padding:9px 18px;color:var(--accfg);margin-left:20px}
+.btn.ghost{background:none;color:var(--fg);border:1px solid var(--line);margin-left:8px}
+section{padding:90px 6vw;max-width:1100px;margin:0 auto}
+.hero{text-align:center;padding-top:110px;padding-bottom:110px}
+.eyebrow{color:var(--acc);letter-spacing:.4em;font-weight:700;font-size:.8rem}
+h1{font-size:clamp(2.6rem,8vw,5.6rem);line-height:1;letter-spacing:-.05em;margin:24px 0}
+h2{font-size:clamp(1.8rem,4.5vw,3rem);letter-spacing:-.03em;line-height:1.1;margin:0 0 12px}
+.sub{color:var(--mute);font-size:1.2rem;max-width:560px;margin:0 auto 36px}
+.stats{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:56px}
+.stats span{border:1px solid var(--line);border-radius:999px;padding:8px 18px;color:var(--mute);font-size:.95rem}.stats b{color:var(--acc)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px;margin-top:36px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:26px}
+.card h3{margin:0 0 6px;font-size:1.15rem}.card p{margin:0;color:var(--mute)}
+.card .n{color:var(--acc);font-size:2rem;font-weight:800;letter-spacing:-.03em;display:block;margin-bottom:8px}
+.lead{color:var(--mute);max-width:620px;font-size:1.1rem}
+.cta{text-align:center;background:var(--card);border:1px solid var(--line);border-radius:28px;margin:0 6vw 60px;max-width:none}
+.cta p{color:var(--mute);max-width:520px;margin:0 auto 28px}
+footer{border-top:1px solid var(--line);padding:30px 6vw;color:var(--mute);font-size:.85rem;text-align:center}
+footer p{max-width:700px;margin:6px auto}
+
+.js .reveal{opacity:0;transform:translateY(48px);transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .8s cubic-bezier(.2,.7,.2,1)}
+.js .reveal.in{opacity:1;transform:none;transition-delay:var(--d,0s)}
+.js .card.reveal{transform:translateY(48px) scale(.97)}
+.js .card.reveal.in{transform:none}
+.card{transition:border-color .3s}.card:hover{border-color:var(--acc)}
+</style>
+</head>
+<body>
+<header>
+  <a class="logo" href="#">VOLD<b>45</b></a>
+  <nav><a href="#warum">Warum</a><a href="#fahren">Fahren</a><a href="#sicher">Sicherheit</a><a class="btn" href="#kontakt">Kontakt</a></nav>
+</header>
+
+<section class="hero">
+  <div class="eyebrow">VOLD45</div>
+  <h1>Die Zukunft muss nicht kompliziert sein.</h1>
+  <p class="sub">Wir wollen Mobilität neu denken.</p>
+  <a class="btn" href="#kontakt">Kontakt aufnehmen</a><a class="btn ghost" href="#warum">Mehr erfahren</a>
+  <div class="stats"><span><b>45</b> km/h</span><span><b>2</b> Sitze</span><span><b>50</b> km Reichweite</span><span><b>1,5 m²</b> Solardach</span><span>ab <b>4.500 €</b> (Ziel)</span></div>
+</section>
+
+<section id="haltung">
+  <h2>Die Zukunft muss nicht kompliziert sein.</h2>
+  <p class="lead">Wir wollen moderne Mobilität nicht durch immer mehr Funktionen definieren, sondern durch das, was wirklich besser geworden ist: effiziente Antriebe, intelligente Konstruktion, Sicherheit, einfache Bedienung und bezahlbare Technik.</p>
+  <p class="lead">Fortschritt bedeutet nicht, dass jedes Jahr mehr Funktionen dazukommen müssen. Fortschritt bedeutet auch, dass gute Technik einfacher, effizienter und für mehr Menschen zugänglich wird.</p>
+</section>
+
+<section id="warum">
+  <h2>Mobilität endet nicht an der Stadtgrenze.</h2>
+  <p class="lead">Im ländlichen Raum sind Bus- und Bahnverbindungen begrenzt. Jugendliche sind für Schule, Ausbildung, Sport und soziale Kontakte oft auf Fahrdienste angewiesen. VOLD45 bietet eine eigenständige, bezahlbare Alternative.</p>
+  <div class="grid">
+    <div class="card"><span class="n">01</span><h3>Eingeschränkter ÖPNV</h3><p>Lange Wege und wenige Verbindungen schränken die Selbstständigkeit ein.</p></div>
+    <div class="card"><span class="n">02</span><h3>Zeitliche Flexibilität</h3><p>Mobilität unabhängig von Fahrplänen und Fahrdiensten.</p></div>
+    <div class="card"><span class="n">03</span><h3>Zwei Sitze</h3><p>Platz für eine Begleitperson, etwa Mitschüler oder Freunde.</p></div>
+  </div>
+</section>
+
+<section id="fahren">
+  <h2>Einfach. Leicht. Bezahlbar.</h2>
+  <p class="lead">Ein reduziertes Fahrzeugkonzept, konsequent auf den Alltag ausgelegt.</p>
+  <div class="grid">
+    <div class="card"><span class="n">45</span><h3>km/h</h3><p>Ausgelegt für Schulweg, Ausbildung und Freizeit im Umland.</p></div>
+    <div class="card"><span class="n">EV</span><h3>Elektrisch</h3><p>4-kWh-Akku für 50 km Reichweite. Leiser Antrieb, lokal emissionsfrei, geringe Betriebskosten.</p></div>
+    <div class="card"><span class="n">PV</span><h3>Solardach</h3><p>1,5 m² Solarfläche laden bei längeren Standzeiten nach, zum Beispiel während der Schulzeit.</p></div>
+    <div class="card"><span class="n">€</span><h3>Preisziel</h3><p>Angestrebter Verkaufspreis: 4.500–4.700 €. Leasing und Probemonat geplant.</p></div>
+    <div class="card"><span class="n">04</span><h3>Robuste Bauweise</h3><p>Leichter Rahmen, standardisierte Komponenten, reduzierter Innenraum.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>Erst testen, dann entscheiden.</h2>
+  <div class="grid">
+    <div class="card"><span class="n">1</span><h3>Probefahrt</h3><p>Termin vereinbaren und das Fahrzeug selbst erleben.</p></div>
+    <div class="card"><span class="n">2</span><h3>Probemonat</h3><p>Einen Monat im Alltag erproben.</p></div>
+    <div class="card"><span class="n">3</span><h3>Leasing oder Kauf</h3><p>Flexible Modelle für Jugendliche und Familien.</p></div>
+    <div class="card"><span class="n">04</span><h3>Geplant: Vermietung in der Stadt</h3><p>Kurzzeitmiete für Fahrten im urbanen Raum.</p></div>
+  </div>
+</section>
+
+<section id="sicher">
+  <h2>Sicherheit zuerst.</h2>
+  <p class="lead">Bremsen, Beleuchtung, Gurte, Sicht und elektrische Sicherheit sind nicht verhandelbar. Fahrzeugklasse, Zulassung, Versicherung und Haftung werden vor dem Marktstart verbindlich geklärt, in Abstimmung mit Fachleuten für Fahrzeugtechnik und Zulassung.</p>
+</section>
+
+<section class="cta" id="kontakt">
+  <h2>Interesse an VOLD45?</h2>
+  <p>Wir informieren über Verfügbarkeit, Probefahrten und Konditionen. Sprich uns gern an.</p>
+  <a class="btn" href="mailto:kontakt@vold45.example?subject=Interesse%20an%20VOLD45">Kontakt aufnehmen</a>
+</section>
+
+<footer>
+  <div class="logo">VOLD<b>45</b></div>
+  <p>45 km/h. 2 Sitze. Einfach mobil.</p>
+  <p>Hinweis: Angaben zu Preis und Ausstattung sind Planwerte und unverbindlich. Keine rechtliche oder technische Zulassungsberatung.</p>
+</footer>
+<script>
+(function(){
+if(matchMedia('(prefers-reduced-motion: reduce)').matches||!('IntersectionObserver' in window))return;
+document.documentElement.classList.add('js');
+var els=document.querySelectorAll('.hero > *, section h2, section .lead, .card, .stats span, .cta > *');
+var io=new IntersectionObserver(function(es){es.forEach(function(e){e.target.classList.toggle('in',e.isIntersecting)})},{threshold:.15,rootMargin:'0px 0px -6% 0px'});
+els.forEach(function(el){
+var i=Array.prototype.indexOf.call(el.parentNode.children,el);
+el.style.setProperty('--d',Math.min(i*0.12,0.6)+'s');
+el.classList.add('reveal');io.observe(el);
+});
+})();
+</script>
+</body>
+</html>
